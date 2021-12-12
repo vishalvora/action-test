@@ -29,6 +29,9 @@ jobs:
       - name:  Ionic app
         run: ionic start myApp tabs
         
+      - name:  Ionic app
+        run: cd myApp
+        
       - name: Install app dependencies
         run: npm install
 
